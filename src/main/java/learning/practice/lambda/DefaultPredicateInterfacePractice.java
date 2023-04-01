@@ -1,2 +1,4 @@
-package learning.practice.lambda;public class DefaultPredicateInterfacePractice {
+package learning.practice.lambda;
+
+public class DefaultPredicateInterfacePractice {
 }

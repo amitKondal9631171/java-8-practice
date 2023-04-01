@@ -1,2 +1,4 @@
-package learning.practice.lambda;public class DefaultProducerInterfacePractice {
+package learning.practice.lambda;
+
+public class DefaultProducerInterfacePractice {
 }

@@ -1,2 +1,4 @@
-package learning.practice.lambda;public class DefaultConsumerInterfacePractice {
+package learning.practice.lambda;
+
+public class DefaultConsumerInterfacePractice {
 }

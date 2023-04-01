@@ -1,2 +1,4 @@
-package learning.practice.lambda;public class DefaultFunctionInterfacePractice {
+package learning.practice.lambda;
+
+public class DefaultFunctionInterfacePractice {
 }
