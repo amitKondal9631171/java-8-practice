@@ -5,4 +5,4 @@ public interface ParameterLessFunctionalInterface {
 
     void test();
 
-}
+ }
