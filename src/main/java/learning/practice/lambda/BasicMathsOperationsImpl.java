@@ -9,10 +9,9 @@ public class BasicMathsOperationsImpl {
        return a-b;
     }
 
-    static void methodReferencePractice(BasicMathsOperationsInterface multiplicationOperation, int a, int b){
-        int result = multiplicationOperation.performOperation(a,b);
-        System.out.println(result);
-    }
+    static int methodReferencePractice(BasicMathsOperationsInterface multiplicationOperation, int a, int b){
+        return multiplicationOperation.performOperation(a,b);
+   }
 
 
     public static void main(String[] args) {
@@ -22,5 +21,9 @@ public class BasicMathsOperationsImpl {
         //method as reference from default Integer class
         methodReferencePractice(Integer::sum, 10, 11);
 
+    }
+
+    public static Integer methodReferencePractice() {
+        return 1;
     }
 }

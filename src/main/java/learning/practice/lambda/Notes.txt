@@ -1,0 +1,24 @@
+What is Lambda:
+ lambda is a expression.
+Why we need Lambda:
+  lambda is required to implement the functionality of function and to remove boiler plate code.
+  With lambda we can write code with less number of lines.
+When to use lambda:
+   To pass function as parameter like method reference
+   To remove boiler plate code.
+   To pass the expression in streams
+
+Writing Lambda expression meaning we are implementing the interface that is functional interface.
+It should have one abstract method because at the time of lambda expression, we can provide only one implementation at once.
+
+1) Function Interface
+    The Function interface has only one single method apply().
+    It can accept an object of any data type and returns a result of any datatype.
+
+2) A supplier is any method which takes no arguments and returns a value.
+    Its job is to supply an instance of an expected class.
+
+3) Consumer is a method that consumes some value (as in method argument),
+    and does some operations on them. So a Consumer is any method which takes arguments
+    and returns nothing. Meaning which consumes the input. It is used to perform some action on
+    collection data.
